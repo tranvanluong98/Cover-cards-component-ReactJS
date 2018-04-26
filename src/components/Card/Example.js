@@ -1,23 +1,23 @@
 import React from 'react';
 
-
-
 export default class Example extends React.Component {
     render() {
         return (
-            <div className="card">
+            <div >
+                <h3>Example</h3>
+                <div className="card" style={{backgroundColor: "#EFC4C4" , border:"1px solid gray" }}>
+                    <h3>{this.props.title}</h3>
 
-                <h3>{this.props.title}</h3>
+                    <p>{this.props.subtitle}</p>
 
-                <p>{this.props.subtitle}</p>
+                    <p>{this.props.content}</p>
 
-                <p>{this.props.content}</p>
-                
-                
-                <a href="#">
-                   
-                    <button className="button"> {this.props.button}</button>
+
+                    <a href="#">
+
+                        <button className="button"> {this.props.button}</button>
                     </a>
+                </div>
             </div>
         );
     }

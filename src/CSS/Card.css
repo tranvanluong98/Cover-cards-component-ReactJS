@@ -10,6 +10,16 @@
     color: #212529;
     text-align: left;
     padding: 1.5rem;
-    margin-left: 38%
-
+    margin-left: 38%;
+    padding-left: 23px;
+    padding-bottom: 10px;
+    border-width: .2rem;
+    
+}
+.border{
+    border: 1px solid gray;
+}
+.link{
+    text-decoration: none;
+    color: #007bff;
 }
