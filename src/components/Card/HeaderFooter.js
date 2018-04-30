@@ -39,7 +39,7 @@ export default class HeaderFooter extends React.Component {
 
                             <button className="button"> {this.props.button}</button>
                         </a>
-                        <p className="text-footer " >
+                        <p className="text-footer " style={{left:"-24px", top:"25px"}} >
                            <p style={{position:"relative", top:"12px" , color: "#6c757d"}} > Footer</p>
                         </p>
                     </div>

@@ -29,10 +29,9 @@ export default class Navigation extends React.Component {
 
                 </div>
                 <div style={{border: "1px solid darkgray", width:"960px", marginLeft:"139px"}} >
-                    <h3>Special title</h3>
-                    <p>With supporting text below as a natural lead-in to additional content.
-Go somewhere
-</p>
+                    <h3>{this.props.title}</h3>
+                    <p> {this.props.content} </p>
+
                     <a href="#">
 
                         <button className="button" style={{marginBottom:"10px"}} > {this.props.button}</button>

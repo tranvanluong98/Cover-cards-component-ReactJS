@@ -18,6 +18,8 @@ import KitchenSink from './components/Card/KitchenSink';
 import HeaderFooter from './components/Card/HeaderFooter';
 import TextAlign from './components/Card/TextAlign';
 import Navigation from './components/Card/Navigation';
+import ImageCaps from './components/Card/ImageCaps';
+
 ReactDOM.render(
     <div>
         {/* <App /> */}
@@ -55,9 +57,16 @@ ReactDOM.render(
         < h3 className="text-title"> TextAlign</h3>
         <TextAlign title="Special title treatment" content= "With supporting text below as a natural lead-in to additional content" 
         button="Click here!" />
-
-        <Navigation linkdisable="Disable" LinkFullHD="https://getbootstrap.com/docs/4.0/components/card/" linkActive="https://www.facebook.com/"
+        < h3 className="text-title"> Navigation</h3>
+        <Navigation title="Special title" content="With supporting text below as a natural lead-in to additional content." linkdisable="Disable" LinkFullHD="https://getbootstrap.com/docs/4.0/components/card/" linkActive="https://www.facebook.com/"
         nameActive="Active" linkHD="Link FULL HD" link_disable="Disable" button="Go Somewhere"/>
+        
+        < h3 className="text-title"> Images</h3>
+        <p className="text">Turn an image into a card background and overlay your card’s text. Depending on the image, you may or may not need additional styles or utilities.
+
+</p>
+        <ImageCaps img="http://mariadamore.com/sitebuilder/images/blackGoldMontage-780x180.jpg"
+            title="Card Title"  content="This is a wider card with supporting text below" footer="2 days ago" />
     </div>
     , document.getElementById('root'));
 registerServiceWorker();

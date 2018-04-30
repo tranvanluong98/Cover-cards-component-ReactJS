@@ -4,6 +4,7 @@
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
+    margin-left: 139px;
 }
 .text-title{
     font-size: 1.75rem;
@@ -11,4 +12,6 @@
     font-weight: 500;
     line-height: 1.2;
     color: inherit;
+    padding: 1.25rem;
+    margin-left: 139px;
 }
