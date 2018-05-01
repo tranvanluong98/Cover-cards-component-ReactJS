@@ -1,13 +1,13 @@
 import React from 'react';
-import Layout from './Layout';
-
-export default class Header extends React.Component{
+class Header extends React.Component{
     render(){
+        
         return(
             <div>
-            <Layout header="Lady and Gentelman"/>
-            <Layout header ="What's up!!"/>
+            <h1 style={{color:"#FFFFFF" , textAlign:"center", backgroundColor: "#563d7c"}} className="Header">{this.props.header}</h1>
+            <hr /> <br />
             </div>
         );
     }
 }
+export default Header;
